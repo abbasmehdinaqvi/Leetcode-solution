@@ -11,7 +11,7 @@ class Solution {
 public:
     int guessNumber(int n) {
         int l = 1;
-        int r = pow(2, 31) - 1;
+        int r = n;
         
         while(l <= r)
         {
